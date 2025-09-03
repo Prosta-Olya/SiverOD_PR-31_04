@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/registration"
-        android:textSize="36dp"
+        android:textSize="36sp"
         android:textStyle="bold"
         android:textColor="@color/green"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -41,43 +41,60 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="65px"
-            android:layout_marginLeft="55px">
+            android:layout_marginTop="65dp"
+            android:layout_marginStart="55dp">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/input"
-                android:textSize="14dp"
+                android:textSize="14sp"
                 android:textColor="@color/black"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="13px"
-            android:layout_marginLeft="56px">
+            android:layout_marginTop="13dp"
+            android:layout_marginStart="56dp">
             <EditText
                 android:layout_width="282dp"
                 android:layout_height="wrap_content"
                 android:text="@string/login"
                 android:textColor="@color/black"
                 android:textStyle="bold"
-                android:textSize="14dp"/>
+                android:textSize="14sp"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="13px"
-            android:layout_marginLeft="56px">
+            android:layout_marginTop="13dp"
+            android:layout_marginStart="56dp">
             <EditText
                 android:layout_width="282dp"
                 android:layout_height="wrap_content"
                 android:text="@string/password"
                 android:textColor="@color/black"
                 android:textStyle="bold"
-                android:textSize="14dp"
+                android:textSize="14sp"
                 android:inputType="textPassword"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="183.05dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="50dp">
+            <Button
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:text="@string/button1"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/button"
+                />
         </LinearLayout>
 
     </LinearLayout>

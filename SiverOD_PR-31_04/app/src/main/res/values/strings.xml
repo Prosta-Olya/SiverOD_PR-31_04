@@ -4,4 +4,8 @@
     <string name="input">Введите ваш логин и пароль</string>
     <string name="login">Логин</string>
     <string name="password">Пароль</string>
+    <string name="button1">ВОЙТИ</string>
+    <string name="back">на главное меню</string>
+    <string name="credit_calculator">Кредитный калькулятор</string>
+    <string name="sum">Сумма кредита</string>
 </resources>
