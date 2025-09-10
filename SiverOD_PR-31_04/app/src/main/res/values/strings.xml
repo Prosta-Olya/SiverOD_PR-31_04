@@ -8,4 +8,10 @@
     <string name="back">на главное меню</string>
     <string name="credit_calculator">Кредитный калькулятор</string>
     <string name="sum">Сумма кредита</string>
+    <string name="term">срок кредита</string>
+    <string name="payment1">ежемесячный</string>
+    <string name="payment2">платёж</string>
+    <string name="enter">введите срок кредита</string>
+    <string name="calculation">РАССЧИТАТЬ</string>
+    <string name="payment">ежемесячный платёж</string>
 </resources>
